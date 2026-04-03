@@ -5,7 +5,7 @@ from collections import defaultdict
 
 if len(sys.argv) != 4:
     sys.exit(
-        "Usage: python filter_redundant_gff.py keep_ids.txt input.gff output.gff"
+        "Usage: python 5.filter_redundant_gff.py keep_id_for_gff.txt {input}.gff {output}.gff"
     )
 
 keep_ids_file, gff_file, out_file = sys.argv[1:]
