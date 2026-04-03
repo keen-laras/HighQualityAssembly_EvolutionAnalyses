@@ -3,4 +3,4 @@ This repository contains a configuration and workflow for genome polishing using
 
 Input your files and parameters, then run the software with this command
 
-    `nextPolish nextpolish_config.txt`
+    nextPolish nextpolish_config.txt
