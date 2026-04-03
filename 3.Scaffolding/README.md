@@ -3,8 +3,8 @@ This repository contains a pipeline for genome scaffolding using chromatin confo
 
 Run alignments using,
 
-`bash run_bowtie2.sh` then `run scaffolding_script1.sh`
+    `bash run_bowtie2.sh` then `run scaffolding_script1.sh`
 
 or
 
-`bash run_chromap.sh` then `run scaffolding_script2.sh`
+    `bash run_chromap.sh` then `run scaffolding_script2.sh`
