@@ -3,5 +3,5 @@ This repository contains a configuration and workflow for de novo genome assembl
 
 Input your files and parameters, then run the software with this command
 
-`NextDenovo 1.nextdenovo_config.txt`
+  `NextDenovo 1.nextdenovo_config.txt`
 
