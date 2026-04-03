@@ -1,0 +1,7 @@
+#SpeciesName CladeLabel
+Ajin    Ajin
+Adia    Outgroup
+Lnig    Outgroup
+Cruf    Cruf
+Etat    Etat
+Bcon    Bcon
