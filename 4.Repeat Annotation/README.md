@@ -3,10 +3,10 @@ This repository provides a pipeline for identifying repetitive elements and gene
 
 **- Run software depending on your library**
 
-`bash run_denovo.sh` or `bash run_lib.sh`
+    `bash run_denovo.sh` or `bash run_lib.sh`
 
 **- Mask output file**
-  1. `perl extract_lowercase_bed.pl /path/to/repeatmasker/{sample}.fa.masked {output}.nmasked.bed`
-  2. `cat /denovo/{output}.nmasked.bed /dfam_lib/{output}.nmasked.bed > {output}_combined_nmasked.raw.bed sort -k1,1 -k2,2n {output}_combined_nmasked.raw.bed > {output}_combined_nmasked.sorted.bed`
-  3. `/bedtools/2.29.2/bin/mergeBed -i {output}_combined_nmasked.sorted.bed > {output}_combined_nmasked.merged.bed`
-  4. `/bedtools/2.29.2/bin/maskFastaFromBed -mc N -fi /path/to/{sample}.fa -fo {output}.FINAL.masked.fa -bed {output}_combined_nmasked.merged.bed`
+      1. `perl extract_lowercase_bed.pl /path/to/repeatmasker/{sample}.fa.masked {output}.nmasked.bed`
+      2. `cat /denovo/{output}.nmasked.bed /dfam_lib/{output}.nmasked.bed > {output}_combined_nmasked.raw.bed sort -k1,1 -k2,2n     {output}_combined_nmasked.raw.bed > {output}_combined_nmasked.sorted.bed`
+      3. `/bedtools/2.29.2/bin/mergeBed -i {output}_combined_nmasked.sorted.bed > {output}_combined_nmasked.merged.bed`
+      4. `/bedtools/2.29.2/bin/maskFastaFromBed -mc N -fi /path/to/{sample}.fa -fo {output}.FINAL.masked.fa -bed {output}_combined_nmasked.merged.bed`
