@@ -32,7 +32,11 @@ and check for corrupted trees
 
     `bash 6c.check_iqtreeRun.sh`
 
+### D. Generating species tree with [ASTRAL (version 5.7.1)](https://github.com/smirarab/ASTRAL)
 
+    `cat {iqtree_output}/*.treefile > all.treefile
+    astral -i all.treefile -o all.astral.speciestree > all.speciestree.log 2>&1 &`
 
-
+### E. Visualize tree
+Tree visualization can be done in a tree building website, for example [ITOL](https://itol.embl.de/upload.cgi)
 
