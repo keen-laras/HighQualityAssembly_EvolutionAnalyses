@@ -1,0 +1,56 @@
+
+##################################### global variable settings  ###############################
+
+SetParaFor = global
+
+GenomeInfoFile1= {speciesA}.len  
+GenomeInfoFile2= {speciesB}.len     
+GenomeInfoFile3= {speciesC}.len    
+
+####### Format (chrA StartA EndA chrB StartB End ...other parameters)
+## Note: link files could be occurred multiple times
+
+LinkFileRef1VsRef1= {speciesAB}.colored.link  
+LinkFileRef2VsRef2= {speciesBC}.colored.link   
+
+#SetParaFor=Genome1    
+#fill="#FF0000"
+#stroke="#FF0000"
+
+#SetParaFor=Link1
+#fill="#D31212"
+#stroke="#D31212"
+
+#SetParaFor=Genome2    
+#fill="#A72424"
+#stroke="#A72424"
+  
+#SetParaFor=Link3        ## setting parameters for the Link3
+#HightRation=0         ## High ratio of links expand or shrink(For DownDown  or UpUP)
+#fill=grey               ## fill Color set to grey
+#stroke=grey
+#ShortLinkLineRefA=10    ## the link line  to RefA becomes a little shorter (negative lengthens)
+#ShortLinkLineRefB=10    ## the link line  to RefB becomes a little shorter (negative lengthens)
+
+
+#SetParaFor=Link4        ## setting parameters for the Link4;  LinkALL, works on all links
+#fill=grey
+#stroke=grey
+#ShortLinkLineRefA=10
+#ShortLinkLineRefB=10
+
+
+#Main = "main_Figure"  ##  the Fig Name  :MainRatioFontSize MainCor ShiftMainX  ShiftMainY 
+
+################################ Figure ############################################################
+
+##############################  Canvas and image parameter configuration ######################
+#body=1200    ## default: 1200 and up/down/left/right) = (55,25,100,120); #CanvasHeightRitao=1.0 CanvasWidthRitao=1.0
+#RotatePng=0  ## rotation angles for the png figure
+left=200      ## The length of the space on the left side of the canvas is 200
+right=200     ## The length of the space on the right side of the canvas is 200
+
+SetParaFor = GenomeALL    ## setting parameter for the ALL genome
+#ZoomChr=0.4              ## Reduce(<1) the lenghth of chromosomes 0.4 of the original
+GenomeNameSizeRatio=2.0
+NormalizedScale=1
