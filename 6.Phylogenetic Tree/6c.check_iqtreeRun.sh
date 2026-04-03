@@ -30,7 +30,7 @@ for aln in mafft_output/*.fa; do
     fi
 
     echo "🚀 Running IQ-TREE for ${prefix}..."
-    /opt/conda/envs/iqtree/bin/iqtree --threads-max 88 -s "$aln" -m MFP -nt AUTO -bb 1000 -pre "$outdir"
+    iqtree -s "$aln" -m MFP -nt 1 -bnni -bb 1000 -pre "$outdir"
 
     echo "✅ Finished ${prefix}"
 done
