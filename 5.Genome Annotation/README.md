@@ -3,9 +3,9 @@ This repository contains a genome annotation pipeline that integrates homology-b
 
 - Run both software
 
-        `bash run_eviann.sh` and `bash run_braker.sh`
+        bash run_eviann.sh && bash run_braker.sh
 
 - Merge both pipeline's output
 
-        `bash run_mergeOutput.sh`
+        bash run_mergeOutput.sh
 
