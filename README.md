@@ -77,7 +77,7 @@ b. Coding sequence (CDS) alignment
 
 a. **ABBA-BABA (D-statistics)** — tests for the presence of introgression
 
-b. **QuIBL **(Quartet-based Inference of Branch Lengths) — distinguishes introgression from incomplete lineage sorting (ILS)
+b. **QuIBL (Quartet-based Inference of Branch Lengths)** — distinguishes introgression from incomplete lineage sorting (ILS)
 
 Together, these methods provide a robust framework for identifying discordant phylogenetic signals and inferring their evolutionary causes.
 
@@ -88,4 +88,5 @@ This module performs genome-wide synteny analysis and visualization to investiga
 It integrates:
 
 a. **GeneSpace** → detection of syntenic blocks and conserved genomic regions
+
 b. **GenomeSyn** → visualization of synteny relationships across genomes
