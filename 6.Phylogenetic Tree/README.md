@@ -40,3 +40,9 @@ and check for corrupted trees
 ### E. Visualize tree
 Tree visualization can be done in a tree building website, for example [ITOL](https://itol.embl.de/upload.cgi)
 
+### F. Bootstrap confirmation
+Unconfident bootstraps (<100%) are tested with alternative topologies using [DiscoVista (version 1.0)](https://github.com/esayyari/discovista)
+
+    `python DiscoVista/src/utils/discoVista.py -a {annotation}.txt -m 5 -p ./ -g Outgroup -o {output}`
+
+
