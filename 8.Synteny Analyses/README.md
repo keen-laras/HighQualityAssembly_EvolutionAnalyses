@@ -7,7 +7,7 @@ Syntenic blocks are obtained from OrthoFinder output [(see 6.Phylogenetic Tree)]
 ### B. Visualization using [NGenomeSyn (version 1.43)](https://github.com/hewm2008/NGenomeSyn)
 This visualization is for chromosome-level assemblies only
 
-    python 8.2.genespace_to_ngenomesynLinks.py
+    python 8b.genespace_to_ngenomesynLinks.py
     NGenomeSyn-1.43/bin/NGenomeSyn -InConfi config.txt -OutPut output
     
 
